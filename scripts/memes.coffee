@@ -201,7 +201,7 @@ getDataPayloadAdv = (imageName, topText, botText, topX, topY, topW, topH, botX, 
         top_left_y_pct: botY,
         width_pct: botW,
         height_pct: botH
-      }g
+      }
     ]
   }
   return JSON.stringify(data)
